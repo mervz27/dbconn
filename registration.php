@@ -20,14 +20,14 @@
                     <h4>Register</h4>
                 </div>
                 <div class="card-body">
-                    <form method="POST" action="/register">
+                    <form method="POST" action="/register.php">
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
                         </div>
                         <div class="form-group">
-                            <label for="reg-email">Email address</label>
-                            <input type="email" class="form-control" id="reg-email" placeholder="Enter your email" required>
+                            <label for="reg-email">Username</label>
+                            <input type="username" class="form-control" id="reg-email" placeholder="Enter your email" >
                         </div>
                         <div class="form-group">
                             <label for="reg-password">Password</label>

@@ -20,10 +20,10 @@
                     <h4>Login</h4>
                 </div>
                 <div class="card-body">
-                    <form method="POST" action="/login">
+                    <form method="POST" action="/authenticate.php">
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            <input type="text" class="form-control" id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
